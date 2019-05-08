@@ -1,0 +1,10 @@
+.friends-container {
+  max-width: 85%;
+  /* border: 1px solid blue; */
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}

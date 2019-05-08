@@ -27,8 +27,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>These are all your friends:</h1>
+      <div className="app">
+        <h1 className="friends-title">These are all your friends:</h1>
         <FriendsList friends={this.state.friends} />
       </div>
     );
