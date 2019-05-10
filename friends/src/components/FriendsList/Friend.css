@@ -1,0 +1,54 @@
+.friend-card {
+  /* border: 1px solid brown; */
+  padding: 1rem;
+  margin: 20px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+1,23538a+58,23538a+91 */
+  background: rgb(167, 207, 223); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(167, 207, 223, 1) 1%,
+    rgba(35, 83, 138, 1) 58%,
+    rgba(35, 83, 138, 1) 91%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(167, 207, 223, 1) 1%,
+    rgba(35, 83, 138, 1) 58%,
+    rgba(35, 83, 138, 1) 91%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 207, 223, 1) 1%,
+    rgba(35, 83, 138, 1) 58%,
+    rgba(35, 83, 138, 1) 91%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 9px 25px 63px -8px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 9px 25px 63px -8px rgba(0, 0, 0, 0.31);
+  box-shadow: 9px 25px 63px -8px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+}
+
+.friend-name,
+.friend-desc {
+  font-family: "Open Sans", sans-serif;
+}
+
+.friend-name {
+  color: #ffffff;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 700;
+  /* margin-bottom: 15px; */
+}
+
+.friend-desc {
+  /* border: 1px solid pink; */
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+.friend-desc li {
+  margin-top: 15px;
+  color: #cccccc;
+}
